@@ -1,0 +1,66 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    // "incremental": true,                   /* TS编译器在第一次编译之后会生成一个存储编译信息的文件，第二次编译会在第一次的基础上进行增量编译，可以提高编译的速度 */
+    "target": "ES6",                          /* 目标语言的版本: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019', 'ES2020', or 'ESNEXT'. */
+    "module": "commonjs",                     /* 生成代码的模板标准: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */
+    // "lib": ["DOM", "ES2015", "ScriptHost", "ES2019.Array"], /* TS需要引用的库，即声明文件，es5 默认引用dom、es5、scripthost,如需要使用es的高级版本特性，通常都需要配置，如es8的数组新特性需要引入"ES2019.Array" */
+    // "allowJs": true,                       /* 允许编译器编译 JS，JSX 文件 */
+    // "checkJs": true,                       /* 允许在JS文件中报错，通常与allowJS一起使用 */
+    // "jsx": "preserve",                     /* 在 .tsx 文件里支持 JSX: 'preserve', 'react-native', or 'react'. */
+    // "declaration": true,                   /* 生成声明文件，开启后会自动生成声明文件 '.d.ts'. */
+    // "declarationMap": true,                /* 为声明文件生成 sourceMap */
+    // "sourceMap": true,                     /* 为目标文件生成 sourceMap */
+    // "outFile": "./",                       /* 将多个相互依赖的文件生成一个文件，如果以 AMD 作为标准，即开启时应设置 "module": "AMD" */
+    // "outDir": "./",                        /* 指定输出目录 */
+    // "rootDir": "./",                       /* 指定输出文件目录(用于输出)，用于控制输出目录结构 */
+    // "composite": true,                     /* Enable project compilation */
+    // "tsBuildInfoFile": "./",               /* 增量编译文件的存储位置 */
+    // "removeComments": true,                /* 删除注释 */
+    // "noEmit": true,                        /* 不输出文件,即编译后不会生成任何 js 文件 */
+    // "importHelpers": true,                 /* 通过 tslib 引入 helper 函数，文件必须是模块 */
+    // "downlevelIteration": true,            /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */
+    // "isolatedModules": true,               /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */
+
+    /* Strict Type-Checking Options */
+    "strict": true,                           /* 开启所有严格的类型检查 */
+    // "noImplicitAny": true,                 /* 不允许隐式的 any 类型 */
+    // "strictNullChecks": true,              /* 不允许把 null、undefined 赋值给其他类型的变量 */
+    // "strictFunctionTypes": true,           /* 不允许函数参数双向协变 */
+    // "strictBindCallApply": true,           /* Enable strict 'bind', 'call', and 'apply' methods on functions. */
+    // "strictPropertyInitialization": true,  /* 类的实例属性必须初始化 */
+    // "noImplicitThis": true,                /* 不允许 this 有隐式的 any 类型 */
+    // "alwaysStrict": true,                  /* 在代码中注入 'use strict' */
+
+    /* Additional Checks */
+    // "noUnusedLocals": true,                /* 检查只声明、未使用的局部变量(只提示不报错) */
+    // "noUnusedParameters": true,            /* 检查未使用的函数参数(只提示不报错) */
+    // "noImplicitReturns": true,             /* 每个分支都会有返回值 */
+    // "noFallthroughCasesInSwitch": true,    /* 防止 switch 语句贯穿(即如果没有 break 语句后面不会执行) */
+
+    /* Module Resolution Options */
+    // "moduleResolution": "node",            /* 模块解析策略，ts 默认用 node 的解析策略，即相对的方式导入 */
+    // "baseUrl": "./",                       /* 解析非相对模块的基地址，默认是当前目录 */
+    // "paths": {},                           /* 路径映射，相对于 baseUrl */
+    // "rootDirs": [],                        /* 将多个目录放在一个虚拟目录下，用于运行时，即编译后引入文件的位置可能发生变化，这也设置可以虚拟 src 和 out 在同一个目录下，不用再去改变路径也不会报错 */
+    // "typeRoots": [],                       /* 声明文件目录，默认时 node_modules/@types */
+    // "types": [],                           /* 加载的声明文件包 */
+    // "allowSyntheticDefaultImports": true,  /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
+    "esModuleInterop": true,                  /* 允许 export = 导出，由import from 导入 */
+    // "preserveSymlinks": true,              /* Do not resolve the real path of symlinks. */
+    // "allowUmdGlobalAccess": true,          /* 允许在模块中全局变量的方式访问 umd 模块 */
+
+    /* Source Map Options */
+    // "sourceRoot": "",                      /* Specify the location where debugger should locate TypeScript files instead of source locations. */
+    // "mapRoot": "",                         /* Specify the location where debugger should locate map files instead of generated locations. */
+    // "inlineSourceMap": true,               /* Emit a single file with source maps instead of having a separate file. */
+    // "inlineSources": true,                 /* Emit the source alongside the sourcemaps within a single file; requires '--inlineSourceMap' or '--sourceMap' to be set. */
+
+    /* Experimental Options */
+    // "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
+    // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
+
+    /* Advanced Options */
+    "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
+  }
+}
